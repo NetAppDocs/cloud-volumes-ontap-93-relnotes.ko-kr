@@ -1,0 +1,89 @@
+---
+sidebar: sidebar 
+permalink: reference-new.html 
+keywords: 'what"s new, new, features, release notes, enhancements' 
+summary: ONTAP 클라우드 의 새로운 릴리즈에는 새로운 기능, 향상 기능 및 버그 수정 사항이 추가되었습니다. 
+---
+= ONTAP 클라우드 9.3의 새로운 기능
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+ONTAP 클라우드 9.3에는 몇 가지 새로운 기능과 개선 사항이 포함되어 있습니다.
+
+
+
+== AWS의 ONTAP 클라우드 HA 개선 사항
+
+9.3 릴리즈에서는 ONTAP 클라우드 HA 쌍의 복원력을 지원하여 AWS 에코시스템 내에서 네트워크 상의 오류 또는 일시적인 높은 지연 시간을 견디고 이러한 이벤트 중에 고객 데이터의 가용성을 보장합니다.
+
+
+
+== AWS의 EU(파리) 지역 지원
+
+ONTAP 클라우드는 현재 AWS의 EU(파리) 지역에서 지원됩니다. 이 지역에서 지원되는 인스턴스 유형에 따라 EU(파리) 지역에서 다음과 같은 ONTAP 클라우드 구성을 사용할 수 있습니다.
+
+* ONTAP 클라우드 표준(R4.xLarge)
+* ONTAP 클라우드 프리미엄(r4.2xLarge)
+* ONTAP 클라우드 BYOL(R4.xLarge 및 r4.2xLarge)
+
+
+
+
+== Azure Premium 디스크를 통한 쓰기 성능 향상
+
+Azure에서 프리미엄 스토리지 디스크를 사용할 경우 ONTAP 클라우드의 쓰기 성능이 향상되었습니다. 향상된 기능은 ONTAP Cloud Standard, 프리미엄 및 BYOL에서 지원됩니다.
+
+
+NOTE: DS3_v2 가상 머신 유형을 사용할 때는 쓰기 성능 향상이 지원되지 않습니다.
+
+
+
+== ONTAP Cloud Premium 및 BYOL의 용량 제한 증가
+
+DS5_v2 또는 DS14_v2 가상 머신 유형을 사용할 경우 ONTAP Cloud Premium 및 ONTAP Cloud BYOL의 용량 제한이 252TB로 2배 증가했습니다.
+
+
+NOTE: 이 변경은 Azure 가상 머신당 사용 가능한 디스크 수가 증가했기 때문에 가능합니다. 애그리게이트당 최대 용량은 변경되지 않습니다.
+
+
+
+== Azure US Gov 지역 지원
+
+이제 Cloud Manager 및 ONTAP Cloud BYOL을 다음 Azure 지역에서 구축할 수 있습니다.
+
+* 미국 정부 애리조나
+* 미국 정부 텍사스
+* 미국 정부 버지니아
+
+
+이러한 영역에 Cloud Manager를 배포하려면 Azure Marketplace에서 CentOS 7.3 가상 시스템을 생성하고 NetApp Support 사이트에서 Cloud Manager 설치 프로그램을 다운로드한 다음 소프트웨어를 설치해야 합니다. Cloud Manager를 실행한 후 다른 지역과 마찬가지로 이러한 지역에서 ONTAP Cloud BYOL 시스템을 구축할 수 있습니다.
+
+
+
+== SVM 재해 복구 지원
+
+ONTAP Cloud는 하나의 데이터 지원 SVM과 하나의 대상 SVM을 재해 복구에 지원합니다. 소스 SVM이 중단되었을 경우 데이터 액세스를 위해 대상 SVM을 활성화할 수 있습니다.
+
+SVM 재해 복구는 SVM 데이터를 비동기 미러링하고 소스 SVM에서 타겟 SVM으로 구성을 수행하는 것입니다. 소스 SVM을 더 이상 사용할 수 없는 경우 데이터 액세스를 위해 타겟 SVM을 빠르게 활성화할 수 있습니다.
+
+
+NOTE: Cloud Manager는 SVM 재해 복구에 대한 설정 또는 오케스트레이션 지원을 제공하지 않습니다. 또한 추가 SVM에서 스토리지 관련 작업도 지원하지 않습니다. SVM 재해 복구에 System Manager 또는 CLI를 사용해야 합니다.
+
+https://library.netapp.com/ecm/ecm_get_file/ECMLP2839856["SVM 재해 복구 준비 Express 가이드"^]
+
+https://library.netapp.com/ecm/ecm_get_file/ECMLP2839857["SVM 재해 복구 익스프레스 가이드 를 참조하십시오"^]
+
+
+
+== 노트 업그레이드
+
+* Cloud Manager에서 업그레이드를 완료해야 합니다. System Manager 또는 CLI를 사용하여 ONTAP 클라우드를 업그레이드해서는 안 됩니다. 이렇게 하면 시스템 안정성에 영향을 줄 수 있습니다.
+* ONTAP 클라우드 9.3에서 ONTAP 클라우드 9.3으로 업그레이드할 수 있습니다 9.2.
+* 단일 노드 시스템을 업그레이드하면 시스템이 최대 25분 동안 오프라인 상태로 전환되고 이 동안 I/O가 중단됩니다.
+* HA 2노드 업그레이드는 무중단으로 I/O를 업그레이드할 수 있으며 이 무중단 업그레이드 프로세스 중에 각 노드가 동시 업그레이드되어 클라이언트에 I/O를 계속 제공합니다.
+

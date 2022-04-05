@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: reference-new.html 
 keywords: 'what"s new, new, features, release notes, enhancements' 
-summary: ONTAP 클라우드 의 새로운 릴리즈에는 새로운 기능, 향상 기능 및 버그 수정 사항이 추가되었습니다. 
+summary: ONTAP 클라우드 9.3에는 몇 가지 새로운 기능과 개선 사항이 포함되어 있습니다. 
 ---
 = ONTAP 클라우드 9.3의 새로운 기능
 :hardbreaks:

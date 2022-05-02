@@ -7,6 +7,7 @@ summary: 이 릴리즈 노트에서는 ONTAP Cloud 9.3의 새로운 기능, 제�
 ---
 = ONTAP 클라우드 9.3 릴리스 정보
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

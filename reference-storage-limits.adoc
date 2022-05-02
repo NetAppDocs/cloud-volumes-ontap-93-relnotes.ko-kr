@@ -6,6 +6,7 @@ summary: ONTAP 클라우드에는 안정적인 운영을 위한 스토리지 구
 ---
 = 보관 제한
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

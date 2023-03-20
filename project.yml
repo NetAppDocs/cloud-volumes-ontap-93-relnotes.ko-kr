@@ -24,6 +24,8 @@ sidebar:
     url: "/index.html"
   - title: 새로운 소식
     url: "/reference-new.html"
+  - title: 기타 버전
+    url: "/reference-other-versions.html"
   - title: 지원되는 구성
     url: "/reference-supported-configs.html"
   - title: 보관 제한

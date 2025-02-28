@@ -32,7 +32,6 @@
   <block id="13162bf30327abdba3d09f8e1c60b64e" category="list-text">데이터 계층화는 ONTAP Cloud Standard, Premium 및 BYOL에서 지원됩니다.</block>
   <block id="11f741fe0ee39ada647e4516d0574ff2" category="list-text">데이터 계층화를 사용하는 경우 시스템의 용량 제한은 동일하게 유지됩니다. 용량 제한에는 디스크와 오브젝트 스토리지가 모두 포함됩니다.</block>
   <block id="a3f8304ab1695053d71855c60f8abf63" category="inline-link">Cloud Volumes 글로벌 지역</block>
-  <block id="cb104b2dcdc78de65cc73aeaefde0837" category="list-text">AWS 지역 지원은 를 참조하십시오<block ref="ac98146aa56916be7717a50257418923" category="inline-link-rx"></block>.</block>
   <block id="32ced4ad9724b29c3509b663ee4658c7" category="section-title">Azure용 ONTAP 클라우드</block>
   <block id="aec43df3118114472b9dabb21326a8ae" category="paragraph">Azure에서는 ONTAP 클라우드를 단일 노드 시스템으로 구축할 수 있습니다.</block>
   <block id="5fbb3d7412f89cff55389171f83d7684" category="cell">가상 머신 유형</block>
@@ -43,7 +42,6 @@
   <block id="b72144fa0a4e25809ce8fa02430673a7" category="list-text">DS14_v2</block>
   <block id="50bb513ae39b44421d182e4072a83998" category="cell">표준 HDD 관리 디스크, 표준 SSD 관리 디스크, 프리미엄 SSD 관리 디스크, 디스크당 최대 32TiB입니다</block>
   <block id="aa9528fad85cffe83be0372dc56e2966" category="list-text">ONTAP Cloud Standard, Premium 및 BYOL이 포함된 Azure 프리미엄 스토리지 디스크를 사용할 때는 쓰기 성능이 향상되지만 DS3_v2 가상 머신 유형을 사용할 때는 성능이 향상되지 않습니다.</block>
-  <block id="f1d030b53e2e410016e67d8d3b5484c4" category="list-text">Azure 지역 지원은 를 참조하십시오<block ref="ac98146aa56916be7717a50257418923" category="inline-link-rx"></block>.</block>
   <block id="e9c44bbfd795a5d63d74c6a77afee70d" category="summary">법적 고지 사항은 저작권 선언, 상표, 특허 등에 대한 액세스를 제공합니다.</block>
   <block id="30d965eef5ba25c6b9998ae38270b43e" category="doc">법적 고지</block>
   <block id="6016a2b341113bf496b719905398ecd2" category="section-title">저작권</block>
@@ -246,4 +244,6 @@
   <block id="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-macro"><block ref="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-rx"></block></block>
   <block id="2352c4e1f4d0024ade0869e00e6243f4" category="paragraph"><block ref="2352c4e1f4d0024ade0869e00e6243f4" category="inline-link-macro-rx"></block></block>
   <block id="f9a77fb7fd4e4f366ad7adb32159b4b0" category="sidebar">ONTAP Cloud 9.3 릴리즈 노트</block>
+  <block id="9e6aaceebf3e3ad831b702e903ff9333" category="list-text">AWS 지역 지원에 대해서는 을 참조하십시오<block ref="b1f7a3157f8c754c9d3157099510954f" category="inline-link-rx"></block>.</block>
+  <block id="e7b769b353d56a6c381d67f5a632c000" category="list-text">Azure 지역 지원에 대해서는 을<block ref="b1f7a3157f8c754c9d3157099510954f" category="inline-link-rx"></block>참조하십시오.</block>
 </blocks>

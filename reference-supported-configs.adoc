@@ -61,7 +61,7 @@ AWS에서는 ONTAP 클라우드를 단일 시스템 또는 HA 쌍으로 구축�
 . ONTAP Cloud Standard, Premium 및 BYOL, EBS SSD를 사용하는 경우 향상된 쓰기 성능이 지원됩니다.
 . 데이터 계층화는 ONTAP Cloud Standard, Premium 및 BYOL에서 지원됩니다.
 . 데이터 계층화를 사용하는 경우 시스템의 용량 제한은 동일하게 유지됩니다. 용량 제한에는 디스크와 오브젝트 스토리지가 모두 포함됩니다.
-. AWS 지역 지원은 를 참조하십시오 https://cloud.netapp.com/cloud-volumes-global-regions["Cloud Volumes 글로벌 지역"].
+. AWS 지역 지원에 대해서는 을 참조하십시오 https://bluexp.netapp.com/cloud-volumes-global-regions["Cloud Volumes 글로벌 지역"].
 
 
 
@@ -101,5 +101,5 @@ Azure에서는 ONTAP 클라우드를 단일 노드 시스템으로 구축할 수
 참고:
 
 . ONTAP Cloud Standard, Premium 및 BYOL이 포함된 Azure 프리미엄 스토리지 디스크를 사용할 때는 쓰기 성능이 향상되지만 DS3_v2 가상 머신 유형을 사용할 때는 성능이 향상되지 않습니다.
-. Azure 지역 지원은 를 참조하십시오 https://cloud.netapp.com/cloud-volumes-global-regions["Cloud Volumes 글로벌 지역"].
+. Azure 지역 지원에 대해서는 을 https://bluexp.netapp.com/cloud-volumes-global-regions["Cloud Volumes 글로벌 지역"]참조하십시오.
 
